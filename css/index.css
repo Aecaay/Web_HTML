@@ -5,9 +5,10 @@ html,body{
 
 div{
 	float:left;
+	display: block;
 }
 
-#head{
+.head{
 	display: block;
 	height:20%;
 	width:100%;
@@ -22,14 +23,50 @@ div{
 	margin-top: -30px;
 }
 
-#body{
+.body{
+	float: left;
 	height:70%;
 	width:100%;
-	background:#f54;
+	background:rgba(255,0,0,.2);
 }
 
-#foot{
-	height:10%;
-	width:100%;
+.bl{
+	display: block;
+	height: 100%;
+	width: 20%;
+}
+
+.bl div{
+	margin: 2%;
+	margin-bottom: 1%;
+	float: left;
+	display: block;
+	height: 47%;
+	width:96%;
+	background:#875;
+}
+
+#blh{
 	background:green;
+}
+
+.bc{
+	display: block;
+	height: 100%;
+	width: 60%;
+	background-color: rgba(255,255,0,.2);
+}
+
+.br{
+	display: block;
+	height: 100%;
+	width: 20%;
+}
+
+
+.food{
+	height: 10%;
+	width: 100%;
+	background:#000;
+	color:#789;
 }
