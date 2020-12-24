@@ -6,25 +6,47 @@
 	<link rel="stylesheet" href="http://cdn.bootcss.com/normalize/5.0.0/normalize.min.css">
 	<link rel="stylesheet" href="./css/wele.css">
 	<script src="./JS/wele.js"></script>
-	<title>Document</title>
+
+	<title>欢迎页</title>
 </head>
 <body>
-<div class="whead">这行是头
-	  <a href="#"  onclick="handleMessage()">注册</a>
+<div class="whead">
+	  <a href="#"  onclick="hMes()" class="hitem" id="login">登录</a>
+	  <a href="#"  onclick="hMes()" class="hitem" id="signup">注册</a>
 	  <div id="mes"></div>
-
-
 </div>
 
 
 <div class="wbody">
-<h1 class="tit">标题</h1>
-<p class="tex">正文</p>
+<h1 class="tit">WELCOME</h1>
+<p class="tex">点下面进入主页</p>
 <p class="button"><a href="./index.html" class="ind">Get started now</a></p>
 </div>
 
 
 
-<div class="foot">这行是尾巴</div>
+<div class="wfoot"><!-- 这行是尾巴 -->
+	<div id="ftext">
+		<table class="tab">
+			<thead>
+				<tr>
+					<th>关于这个网页：</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>这里是欢迎页</td>
+				</tr>
+				<tr>
+					<td>这大概是个博客</td>
+				</tr>
+				<tr>
+					<td>没想好写啥</td>
+				</tr>
+			</tbody>
+		</table>
+		<div id="fplan">这里看布局</div></div>
+</div>
+<script src="./JS/line.js"></script>
 </body>
 </html>
